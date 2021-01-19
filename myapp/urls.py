@@ -1,5 +1,9 @@
 from django.urls import path
 from.import views
 urlpatterns = [
-    path('ass1',views.fun1,name='ass1')
+    path('ass1',views.fun1,name='ass1'),
+    path('ass2',views.fun2,name='ass2'),
+    path('ass3',views.fun3,name='ass3'),
+    path('new',views.fun4,name='ass4'),
+    path('ass5',views.fun5,name='ass5')
 ]    
