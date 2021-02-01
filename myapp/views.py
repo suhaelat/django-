@@ -8,6 +8,6 @@ def fun2(req):
 def fun3(req):
     return render(req,'ass3.html')   
 def fun4(req):
-    return render(req,'new.html')
+    return render(req,'ass4.html')
 def fun5(req):
-    return render(req,'ass5.html')
+     return render(req,'ass5.html')
