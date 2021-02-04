@@ -14,6 +14,6 @@ def fun5(req):
 def fun6(req):
     return render(req,'ass6.html')
 def funcss(req):
-     return render(req,'csst.html')
+     return render(req,'css.html')
 def funbs(req):
      return render(req,'bs.html')
