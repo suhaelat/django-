@@ -1,3 +1,4 @@
+ {% load static %}
 <!DOCTYPE html>
 <html>
 
@@ -11,10 +12,19 @@
 </head>
 
 <body>
-    <p><a href="https://www.google.com/">img src</a></p>
-    <p><a href="https://www.facebook.com/">Facebook</a></p>
-    <p><a href="https://www.Twitter.com/">Twitter</a></p>
-    <p><a href="https://www.Microsoft.com/">Microsoft</a></p>
+    <!-- <p><a href="https://www.google.com/">img src</a></p> -->
+    <p>
+        <a href="https://www.google.com/"><img height="100" width="100" src="{% static 'google.jpg' %}" alt=""></a>
+    </p>
+    <p>
+        <a href="https://www.facebook.com/"><img height="100" width="100" src="{% static 'facebook.png' %}" alt=""></a>
+    </p>
+    <p>
+        <a href="https://www.Twitter.com/"><img height="100" width="100" src="{% static 'twitter.png' %}" alt=""></a>
+    </p>
+    <p>
+        <a href="https://www.Microsoft.com/"><img height="100" width="100" src="{% static 'microsoft.jfif' %}" alt=""></a>
+    </p>
 </body>
 
-</html>
+</html>--

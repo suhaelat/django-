@@ -1,0 +1,13 @@
+.cls {
+    margin-left: 50px;
+}
+
+body {
+    /* background-image: url("ass2.jpeg"); */
+    /* background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll; */
+    background-image: url('../ass2.jpeg');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
